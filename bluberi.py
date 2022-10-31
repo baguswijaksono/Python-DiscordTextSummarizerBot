@@ -25,7 +25,7 @@ async def msg(ctx, *args):
     data={
         'text': w,
     },
-    headers={'api-key': '478cd374-ce66-4fcd-a1f9-b96527f62085'})
+    headers={'api-key': 'yourownapikey'})
   x=(r.json())
   y=x['output']
   z=str(ctx.message.author.name)
@@ -98,7 +98,7 @@ async def embad(ctx):
     await ctx.send(embed=embed)
 
 
-bot.run("OTM4NTQ4MDA1NjA5NTM3NjA2.GmYCNw.G1cvH937vS1UU3Hrbttmda8a1VCJ2Sv12VfolU")
+bot.run("Yourdiscordbottoken")
 
 
 
