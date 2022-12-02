@@ -5,11 +5,12 @@
 
 Reduces the size of a document by only keeping the most relevant sentences from it. This model aims to reduce the size to 20% of the original.
 
-## API
-
+## API (Application Programming Interface)
+you can see full documentation about API that i use in this project in link below.
 [Text Summarization API](https://deepai.org/machine-learning-model/summarization)
 
 ## Usage
+to use this bot u can simply type .sumarize and then followed with your long paragraph text.
 ```
 .sumarize <your text goes here>
 ```
